@@ -11,7 +11,7 @@ group :assets do
 end
 
 group :development do
-  gem "guard-rspec"
+  gem "guard-rspec", ">= 3.0.0"
   gem "pry"
   gem "quiet_assets"
   gem "thin"
@@ -28,7 +28,7 @@ group :test do
   gem "ffaker"
   gem "simplecov", require: false
   gem "database_cleaner"
-  gem "rb-inotify", "~> 0.9"
+  gem "rb-inotify", "~> 0.9", ">= 0.9.0"
 end
 
 gem "jquery-rails"
