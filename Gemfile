@@ -31,7 +31,7 @@ group :test do
   gem "rb-inotify", "~> 0.9"
 end
 
-gem "jquery-rails"
+gem "jquery-rails", ">= 3.1.3"
 gem "turbolinks"
 gem "jbuilder", "~> 1.0.1"
 gem "bootstrap-sass", "~> 2.3.0.1"
