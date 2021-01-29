@@ -41,5 +41,5 @@ gem "devise", git: "https://github.com/plataformatec/devise.git", branch: "rails
 gem "cancan"
 gem "omniauth"
 gem "omniauth-github"
-gem "omniauth-twitter"
+gem "omniauth-twitter", ">= 0.0.16"
 gem "hashugar", github: "alex-klepa/hashugar"
