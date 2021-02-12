@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "~> 4.0.0.rc1"
+gem "rails", "~> 6.0.3.5"
 gem "mongoid", github: "mongoid/mongoid"
 group :assets do
   gem "sprockets-rails"
